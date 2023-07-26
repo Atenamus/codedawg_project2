@@ -2,11 +2,25 @@
   font-weight: 400;
   font-size: 14px;
   box-sizing: content-box;
+  background-image: url(https://cb.scene7.com/is/image/Crate/cb_dSC_20230713_Decor_Hero?wid=1160&qlt=80&op_sharpen=1);
+  background-size: cover;
+  background-repeat: repeat;
 }
 .signup {
-  padding: 0px 10px;
+  margin: 2% 0%;
+  width: 30%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .title {
+  background: transparent;
   padding: 0;
   margin: 20px 0;
   color: #222;
@@ -15,10 +29,9 @@
   font-size: 28px;
   line-height: 32px;
   letter-spacing: 0.01em;
-  text-align: left;
 }
 .desc {
-  text-align: left;
+  background: transparent;
   margin: 0 0 20px;
   padding: 0 0 12px;
   font-family: var(--webfont-primary, sans-serif);
@@ -33,36 +46,39 @@
   color: #222;
 }
 label {
+  background: transparent;
   display: flex;
   flex-direction: column;
   margin-bottom: 10px;
   font-weight: bold;
   text-align: left;
+  padding: 0% 5%;
+  font-size: 1vw;
 }
 form {
-  width: fit-content;
+  background: transparent;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  text-align: left;
 }
 .createbutton {
   box-sizing: border-box;
   border: 2px solid #666;
-  border-radius: 0;
-  margin: 0;
   font-family: var(--webfont-primary, sans-serif);
   font-style: normal;
   font-weight: 600;
   text-align: center;
-  text-decoration: none;
   outline: 0;
+  margin: 1% 1%;
   white-space: nowrap;
   background: #fff;
   color: #222;
   font-size: 12px;
   letter-spacing: 2px;
   line-height: 16px;
-  width: 100%;
+  width: 98%;
   height: 40px;
   margin-bottom: 8px;
   position: relative;
@@ -74,6 +90,11 @@ form {
   width: 20px;
   height: 20px;
 }
+#google {
+  width: 20px;
+  height: 20px;
+  background: transparent;
+}
 button {
   text-align: center;
 }
@@ -84,7 +105,7 @@ input {
   border: 1px solid #666;
   border-radius: 0;
   box-shadow: none;
-  width: 100%;
+  width: 180%;
   position: relative;
   outline: 0;
   vertical-align: top;
@@ -100,6 +121,7 @@ input {
   height: 40px;
 }
 .label {
+  background: transparent;
   color: #222;
   font-weight: 600;
   display: block;
@@ -109,6 +131,7 @@ input {
   font-family: var(--webfont-primary, sans-serif);
 }
 .required {
+  background: transparent;
   margin: 4px;
   font-size: 12px;
   line-height: 20px;
@@ -121,4 +144,22 @@ input {
   background: #222;
   color: #fff;
   letter-spacing: 1px;
+  box-sizing: border-box;
+  font-family: var(--webfont-primary, sans-serif);
+  font-style: normal;
+  font-weight: 600;
+  text-align: center;
+  outline: 0;
+  margin: 1% 1%;
+  white-space: nowrap;
+  font-size: 12px;
+  letter-spacing: 2px;
+  line-height: 16px;
+  width: 98%;
+  height: 40px;
+  margin-bottom: 8px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

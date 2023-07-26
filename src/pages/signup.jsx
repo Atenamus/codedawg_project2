@@ -52,7 +52,7 @@ function Signup() {
         </button>
         <button type="button" className="createbutton">
           <img
-            id="apple"
+            id="google"
             src="https://www.transparentpng.com/thumb/google-logo/google-logo-png-icon-free-download-SUF63j.png"
             alt="Google logo"
           />
