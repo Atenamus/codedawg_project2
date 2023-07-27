@@ -15,31 +15,35 @@ body {
 .container {
   min-width: 660px;
   max-width: 735px;
-  margin: 100px auto;
-  /* display: flex; */
-  /* justify-content: space-evenly; */
+  margin: 10% auto;
   padding: 10px 52px 22px;
   position: relative;
   z-index: 5;
-  float: none;
   background: #fff;
-  min-height: 450px;
+  min-height: 550px;
+  max-height: 600px;
 }
 #signinpg {
   background: transparent;
   max-width: 275px;
   float: left;
   position: relative;
+  margin: 2% 5%;
 }
 #info {
   background: transparent;
   max-width: 500px;
-  float: left;
-  position: relative;
+  margin: -1% 30%;
+  position: absolute;
   padding: 0% 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
 }
-
-h3,
+#or {
+  margin: 10% 45%;
+}
+h1,
 h2 {
   text-align: left;
   background: transparent;
@@ -51,6 +55,7 @@ h2 {
   margin: 10% 0% 0% 0%;
 }
 #resetpassword {
+  margin-top: 15%;
   background: transparent;
   text-align: right;
   font-size: 12px;
@@ -71,6 +76,7 @@ label {
   font-size: 1vw;
 }
 form {
+  margin: 15% 0%;
   background: transparent;
   width: 100%;
   display: flex;
@@ -88,13 +94,65 @@ form {
   line-height: 20px;
   font-family: var(--webfont-primary, sans-serif);
 }
-#icon {
-  width: 20px;
-  height: 20px;
-  margin-right: 2%;
+#icon1 {
+  width: 30%;
+  height: 50%;
+  object-fit: contain;
+}
+#icon2 {
+  width: 15%;
+  height: 80%;
+  object-fit: contain;
+}
+#icon3 {
+  width: 15%;
+  height: 120%;
+  object-fit: contain;
+}
+#icon4 {
+  width: 20%;
+  height: 90%;
+  object-fit: contain;
+  padding: 0% 2%;
+}
+#icon5 {
+  width: 15%;
+  height: 70%;
+  object-fit: contain;
+}
+#icon6 {
+  width: 15%;
+  height: 100%;
+  object-fit: contain;
+}
+#icon7 {
+  width: 15%;
+  height: 100%;
+  object-fit: contain;
 }
 #desc {
   box-sizing: border-box;
+  font-family: var(--webfont-primary, sans-serif);
+  font-style: normal;
+  font-weight: 600;
+  text-align: center;
+  white-space: nowrap;
+  background: #fff;
+  color: #222;
+  font-size: 12px;
+  letter-spacing: 2px;
+  line-height: 16px;
+  width: 100%;
+  height: 40px;
+  margin-bottom: 8px;
+  position: relative;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+.createbutton {
+  box-sizing: border-box;
+  border: 2px solid #666;
   border-radius: 0;
   margin: 0;
   font-family: var(--webfont-primary, sans-serif);
