@@ -82,7 +82,7 @@ function Signin() {
         <p id="desc">
           <img
             id="icon"
-            src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQDPuHheLKhkgUc0XCzuxToiMH_8bznYWhByUaTbm544wlaXMvT"
+            src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRDTD3fVe7rmyaaimf26AnIyZ1ZSzEF4-c4W8Lj_1IT4_IAR6Zp"
             alt="star"
           />
           Save payment to view in-store purchases
