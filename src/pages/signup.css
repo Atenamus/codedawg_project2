@@ -1,13 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
 * {
+  font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-size: 14px;
   box-sizing: content-box;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+body {
   background-image: url(https://cb.scene7.com/is/image/Crate/cb_dSC_20230713_Decor_Hero?wid=1160&qlt=80&op_sharpen=1);
   background-size: cover;
-  background-repeat: repeat;
+  background-repeat: no-repeat;
+}
+input {
+  border: none;
+  background-color: rgb(229, 226, 226);
+  height: 2em;
+  width: 95%;
+  border-radius: 0.25rem;
+}
+
+input:focus {
+  outline-color: #94add7;
 }
 .signup {
-  margin: 2% 0%;
+  margin: 0% 0%;
   width: 30%;
   position: absolute;
   top: 50%;
@@ -16,20 +33,25 @@
   background: white;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
+  padding: 1% 2%;
+  border-radius: 1em;
 }
 .title {
-  background: transparent;
-  padding: 0;
-  margin: 20px 0;
+  width: 87%;
+  background-color: #4d4d4d;
+  padding: 3%;
+  margin: 0 0;
   color: #222;
-  font-family: var(--webfont-primary, sans-serif);
   font-weight: 400;
   font-size: 28px;
   line-height: 32px;
   letter-spacing: 0.01em;
+  color: white;
+  border-radius: 0.25em;
 }
+
 .desc {
   background: transparent;
   margin: 0 0 20px;
@@ -50,6 +72,7 @@ label {
   display: flex;
   flex-direction: column;
   margin-bottom: 10px;
+  width: 94%;
   font-weight: bold;
   text-align: left;
   padding: 0% 5%;
@@ -63,28 +86,32 @@ form {
   align-items: flex-start;
   text-align: left;
 }
-.createbutton {
-  box-sizing: border-box;
-  border: 2px solid #666;
-  font-family: var(--webfont-primary, sans-serif);
-  font-style: normal;
-  font-weight: 600;
-  text-align: center;
-  outline: 0;
-  margin: 1% 1%;
-  white-space: nowrap;
-  background: #fff;
-  color: #222;
-  font-size: 12px;
-  letter-spacing: 2px;
-  line-height: 16px;
-  width: 98%;
-  height: 40px;
-  margin-bottom: 8px;
-  position: relative;
+.alt_signup {
   display: flex;
-  justify-content: center;
+  padding-top: 0%;
+  padding-bottom: 5%;
+  width: 100%;
   align-items: center;
+  justify-content: space-around;
+}
+.createbutton {
+  padding: 1%;
+  width: 30%;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 0.25em;
+  cursor: pointer;
+  font-size: 10px;
+}
+span {
+  font-size: 10px;
+}
+span a {
+  text-decoration: none;
+  color: #4d4d4d;
+}
+span a:hover {
+  color: blue;
 }
 #apple {
   width: 20px;
@@ -98,28 +125,7 @@ form {
 button {
   text-align: center;
 }
-input {
-  background: #ffffff;
-  box-sizing: border-box;
-  display: inline-block;
-  border: 1px solid #666;
-  border-radius: 0;
-  box-shadow: none;
-  width: 180%;
-  position: relative;
-  outline: 0;
-  vertical-align: top;
-  background-color: #fff;
-  color: #222;
-  font-style: normal;
-  font-weight: 400;
-  font-family: var(--webfont-primary, sans-serif);
-  transition: border 0.2s linear, box-shadow 0.2s linear;
-  padding: 5px 16px;
-  font-size: 16px;
-  line-height: normal;
-  height: 40px;
-}
+
 .label {
   background: transparent;
   color: #222;
@@ -140,26 +146,48 @@ input {
 }
 
 .button-primary {
-  border-color: #222;
-  background: #222;
-  color: #fff;
-  letter-spacing: 1px;
-  box-sizing: border-box;
-  font-family: var(--webfont-primary, sans-serif);
-  font-style: normal;
-  font-weight: 600;
-  text-align: center;
-  outline: 0;
-  margin: 1% 1%;
-  white-space: nowrap;
-  font-size: 12px;
-  letter-spacing: 2px;
-  line-height: 16px;
-  width: 98%;
-  height: 40px;
-  margin-bottom: 8px;
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  color: white;
+  width: 87%;
+  align-self: center;
+  height: 2.5rem;
+  transition: 0.5s;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  background-color: #4d4d4d;
+}
+.button-primary:hover {
+  transform: scale(1.05);
+}
+@media screen and (min-width: 360px) and (max-width: 800px) {
+  .signup {
+    width: 80%;
+    height: 85%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+      rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  }
+  input {
+    height: 2em;
+  }
+  .createbutton {
+    height: 3.5em;
+    margin: 0px;
+  }
+  span {
+    font-size: 8px;
+  }
+  .desc {
+    font-size: 10px;
+    margin: 0px;
+    padding: 0px;
+  }
+  h1 {
+    margin: 0%;
+  }
+}
+@media screen and (min-width: 800px) and (max-width: 1280px) {
+  .signup {
+    width: 50%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+      rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  }
 }

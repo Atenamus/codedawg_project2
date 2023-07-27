@@ -30,29 +30,31 @@ function Signup() {
 
   return (
     <div className="signup">
-      <h1 className="title">Create an Account</h1>
+      <h1 className="title">Hello! {firstName}</h1>
       <p className="desc">
         Want to check out faster, easily apply Rewards and keep track of your
         online and in-store orders? Create an account now and save your payment
         method. It's even easier when you sign up using Google or Apple.
       </p>
       <form onSubmit={handleSubmit}>
-        <button type="button" className="createbutton">
-          <img
-            id="apple"
-            src="https://static.vecteezy.com/system/resources/previews/002/520/838/original/apple-logo-black-isolated-on-transparent-background-free-vector.jpg"
-            alt="Apple logo"
-          />
-          CREATE USING APPLE
-        </button>
-        <button type="button" className="createbutton">
-          <img
-            id="google"
-            src="https://www.transparentpng.com/thumb/google-logo/google-logo-png-icon-free-download-SUF63j.png"
-            alt="Google logo"
-          />
-          CREATE USING GOOGLE
-        </button>
+        <div className="alt_signup">
+          <button type="button" className="createbutton">
+            <img
+              id="apple"
+              src="https://static.vecteezy.com/system/resources/previews/002/520/838/original/apple-logo-black-isolated-on-transparent-background-free-vector.jpg"
+              alt="Apple logo"
+            />
+            <span> CREATE USING APPLE</span>
+          </button>
+          <button type="button" className="createbutton">
+            <img
+              id="google"
+              src="https://www.transparentpng.com/thumb/google-logo/google-logo-png-icon-free-download-SUF63j.png"
+              alt="Google logo"
+            />
+            <span> CREATE USING GOOGLE</span>
+          </button>
+        </div>
         <label>
           <p className="label">
             First Name
@@ -114,6 +116,12 @@ function Signup() {
           Create Account
         </button>
       </form>
+      <p>
+        Already have an account?
+        <span>
+          <a href="">Sign in</a>
+        </span>
+      </p>
     </div>
   );
 }
