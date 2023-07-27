@@ -28,11 +28,6 @@ function Signup() {
     }
   }, [firstName, lastName, phoneNumber, email, password]);
 
-  const handleAppleSignIn = () => {
-    // Trigger Apple Sign-In
-    window.AppleID.auth.signIn();
-  };
-
   return (
     <div className="signup">
       <h1 className="title">Create an Account</h1>
