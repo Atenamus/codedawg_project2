@@ -35,7 +35,7 @@ With a distinct architectural aesthetic, experiential store environment, and onl
 ### Screenshot
 
 Homepage
-![](./images/homepage1.jpg)
+![](C:\Users\Hp\OneDrive\Documents\GitHub\codedawg_project2\images\chairs.jpg)
 ![](./images/homepage2.jpg)
 ![](./images/homepage3.jpg)
 ![](./images/homepage4.jpg)
