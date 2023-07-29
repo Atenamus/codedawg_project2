@@ -40,14 +40,19 @@ Homepage
 ![](./images/homepage3.jpg)
 ![](./images/homepage4.jpg)
 
-Signup Page
-![](./uploads/readme-screenshot.png)
+#### Signup Page
+![WhatsApp Image 2023-07-29 at 10 00 16](https://github.com/Atenamus/codedawg_project2/assets/133504867/2cab79b5-7e52-415b-909a-e6c4d4a0a793)
 
-Signin Page
-![](./uploads/readme-screenshot.png)
 
-copy and upload screenshots!!
-![](./uploads/readme-screenshot.png)
+
+#### Signin Page
+![WhatsApp Image 2023-07-29 at 10 06 26](https://github.com/Atenamus/codedawg_project2/assets/133504867/d32aacd0-7101-4540-8724-1de8fb06853a)
+
+#### ORDER HISTORY 
+![WhatsApp Image 2023-07-29 at 10 01 32](https://github.com/Atenamus/codedawg_project2/assets/133504867/fb563215-6be8-4032-b210-ef3292028902)
+
+
+
 
 ### Links
 
