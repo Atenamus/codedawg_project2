@@ -35,7 +35,10 @@ With a distinct architectural aesthetic, experiential store environment, and onl
 ### Screenshot
 
 Homepage
-![](./uploads/readme-screenshot.png)
+![](./images/homepage1.jpg)
+![](./images/homepage2.jpg)
+![](./images/homepage3.jpg)
+![](./images/homepage4.jpg)
 
 Signup Page
 ![](./uploads/readme-screenshot.png)
